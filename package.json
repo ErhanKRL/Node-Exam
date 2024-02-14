@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "prettier:write": "prettier --write .",
+    "prettier:check": "prettier --check ."
   },
   "keywords": [],
   "type": "module",
@@ -17,6 +19,7 @@
   },
   "devDependencies": {
     "jest": "^29.7.0",
+    "prettier": "^3.2.5",
     "supertest": "^6.3.4"
   }
 }
